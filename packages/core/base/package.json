@@ -1,5 +1,5 @@
 {
-    "name": "@safecoin/wallet-adapter-base",
+    "name": "@araviel/wallet-adapter-base",
     "version": "0.7.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",

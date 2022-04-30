@@ -1,5 +1,5 @@
 {
-    "name": "@safecoin/wallet-adapter-material-ui",
+    "name": "@araviel/wallet-adapter-material-ui",
     "version": "0.13.1",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -22,9 +22,9 @@
     "peerDependencies": {
         "@material-ui/core": "^4.12.1",
         "@material-ui/icons": "^4.11.2",
-        "@safecoin/wallet-adapter-base": "^0.7.0",
-        "@safecoin/wallet-adapter-react": "^0.13.0",
-        "@safecoin/wallet-adapter-wallets": "^0.11.0",
+        "@araviel/wallet-adapter-base": "^0.7.0",
+        "@araviel/wallet-adapter-react": "^0.13.0",
+        "@araviel/wallet-adapter-wallets": "^0.11.0",
         "@safecoin/web3.js": "^1.29.3",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
@@ -32,9 +32,9 @@
     "devDependencies": {
         "@material-ui/core": "^4.12.1",
         "@material-ui/icons": "^4.11.2",
-        "@safecoin/wallet-adapter-base": "^0.7.0",
-        "@safecoin/wallet-adapter-react": "^0.13.0",
-        "@safecoin/wallet-adapter-wallets": "^0.11.0",
+        "@araviel/wallet-adapter-base": "^0.7.0",
+        "@araviel/wallet-adapter-react": "^0.13.0",
+        "@araviel/wallet-adapter-wallets": "^0.11.0",
         "@safecoin/web3.js": "^1.29.3",
         "@types/react": "^17.0.24",
         "react": "^17.0.2",

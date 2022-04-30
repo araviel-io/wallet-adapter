@@ -1,4 +1,4 @@
-import { SafecoinWalletAdapter, SafecoinWalletAdapterConfig } from '@safecoin/wallet-adapter-safecoin';
+import { SafecoinWalletAdapter, SafecoinWalletAdapterConfig } from '@araviel/wallet-adapter-safecoin';
 import { Wallet, WalletName } from './types';
 
 export const getSafecoinWallet = ({ provider, ...config }: SafecoinWalletAdapterConfig = {}): Wallet => ({

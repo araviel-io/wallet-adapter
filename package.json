@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@safecoin/wallet-adapter",
+    "name": "@araviel/wallet-adapter",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
     "license": "Apache-2.0",
@@ -11,6 +11,7 @@
             "packages/core/react",
             "packages/core/wallets",
             "packages/ui/material-ui",
+            "packages/ui/react-ui",
             "packages/wallets/safecoin"],
         "nohoist": [
             "**/babel-loader",

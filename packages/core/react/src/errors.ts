@@ -1,4 +1,4 @@
-import { WalletError } from '@safecoin/wallet-adapter-base';
+import { WalletError } from '@araviel/wallet-adapter-base';
 
 export class WalletNotSelectedError extends WalletError {
     name = 'WalletNotSelectedError';

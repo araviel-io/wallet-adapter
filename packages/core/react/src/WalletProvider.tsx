@@ -4,8 +4,8 @@ import {
     WalletError,
     WalletNotConnectedError,
     WalletNotReadyError,
-} from '@safecoin/wallet-adapter-base';
-import { Wallet, WalletName } from '@safecoin/wallet-adapter-wallets';
+} from '@araviel/wallet-adapter-base';
+import { Wallet, WalletName } from '@araviel/wallet-adapter-wallets';
 import { Connection, Transaction } from '@safecoin/web3.js';
 import React, { FC, ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { WalletNotSelectedError } from './errors';

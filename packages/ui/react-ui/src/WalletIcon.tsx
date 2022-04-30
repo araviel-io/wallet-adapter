@@ -1,4 +1,4 @@
-import { Wallet } from '@solana/wallet-adapter-wallets';
+import { Wallet } from '@araviel/wallet-adapter-wallets';
 import React, { DetailedHTMLProps, FC, ImgHTMLAttributes } from 'react';
 
 export interface WalletIconProps extends DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement> {

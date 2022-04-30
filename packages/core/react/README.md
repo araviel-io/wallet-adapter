@@ -1,4 +1,4 @@
-# `@safecoin/wallet-adapter-react`
+# `@araviel/wallet-adapter-react`
 
 <!-- @TODO -->
 

@@ -14,7 +14,7 @@ import {
     WalletTimeoutError,
     WalletWindowBlockedError,
     WalletWindowClosedError,
-} from '@safecoin/wallet-adapter-base';
+} from '@araviel/wallet-adapter-base';
 import { PublicKey, Transaction } from '@safecoin/web3.js';
 
 interface SolletWallet {

@@ -1,4 +1,4 @@
-import { MessageSignerWalletAdapter, SignerWalletAdapter, WalletAdapter } from '@safecoin/wallet-adapter-base';
+import { MessageSignerWalletAdapter, SignerWalletAdapter, WalletAdapter } from '@araviel/wallet-adapter-base';
 
 export enum WalletName {
     BitKeep = 'BitKeep',
