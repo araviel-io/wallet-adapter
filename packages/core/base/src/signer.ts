@@ -38,9 +38,6 @@ export abstract class BaseSignerWalletAdapter extends BaseWalletAdapter implemen
             throw error;
         }
     }
-
-    abstract signTransaction(transaction: Transaction): Promise<Transaction>;
-    abstract signAllTransactions(transaction: Transaction[]): Promise<Transaction[]>;
 }
 
 export interface MessageSignerWalletAdapterProps {
