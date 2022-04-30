@@ -45,6 +45,8 @@ export abstract class BaseWalletAdapter extends EventEmitter<WalletAdapterEvents
         connection: Connection,
         options?: SendTransactionOptions
     ): Promise<TransactionSignature>;
+    abstract signTransaction: (transaction: Transaction) => Promise<Transaction>;
+    abstract signAllTransactions: (transaction: Transaction[]) => Promise<Transaction[]>;
 }
 
 export enum WalletAdapterNetwork {
