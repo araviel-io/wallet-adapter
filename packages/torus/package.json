@@ -15,7 +15,7 @@
         "access": "public"
     },
     "scripts": {
-        "clean": "rm -rf lib/*",
+        "clean": "rimraf lib/*",
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
